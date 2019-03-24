@@ -1,0 +1,93 @@
+[
+  {
+    "player1": "Jonathan",
+    "player2": "Nicole",
+    "player1Score": 3,
+    "player2Score": 1
+  },
+  {
+    "player1": "Jonathan",
+    "player2": "Nicole",
+    "player1Score": 2,
+    "player2Score": 3
+  },
+  {
+    "player1": "Laura",
+    "player2": "Angela",
+    "player1Score": 1,
+    "player2Score": 3
+  },
+  {
+    "player1": "Jonathan",
+    "player2": "Laura",
+    "player1Score": 3,
+    "player2Score": 0
+  },
+  {
+    "player1": "Nicole",
+    "player2": "Laura",
+    "player1Score": 2,
+    "player2Score": 3
+  },
+  {
+    "player1": "Jonathan",
+    "player2": "Nicole",
+    "player1Score": 3,
+    "player2Score": 1
+  },
+  {
+    "player1": "Angela",
+    "player2": "Nicole",
+    "player1Score": 0,
+    "player2Score": 3
+  },
+  {
+    "player1": "Esteban",
+    "player2": "Jonathan",
+    "player1Score": 3,
+    "player2Score": 2
+  },
+  {
+    "player1": "Jonathan",
+    "player2": "Laura",
+    "player1Score": 2,
+    "player2Score": 3
+  },
+  {
+    "player1": "Laura",
+    "player2": "JeanLuca",
+    "player1Score": 3,
+    "player2Score": 0
+  },
+  {
+    "player1": "Jonathan",
+    "player2": "Nicole",
+    "player1Score": 3,
+    "player2Score": 0
+  },
+  {
+    "player1": "Juan",
+    "player2": "Marcela",
+    "player1Score": 2,
+    "player2Score": 3
+  },
+  {
+    "player1": "Laura",
+    "player2": "Jonathan",
+    "player1Score": 3,
+    "player2Score": 0
+  },
+  {
+    "player1": "Jonathan",
+    "player2": "Marcela",
+    "player1Score": 2,
+    "player2Score": 3
+  },
+  {
+    "player1": "Alberto",
+    "player2": "Ian",
+    "player1Score": 0,
+    "player2Score": 3
+  }
+  
+]

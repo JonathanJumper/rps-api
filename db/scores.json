@@ -1,0 +1,42 @@
+[
+  {
+    "player": "Jonathan",
+    "wins": 42
+  },
+  {
+    "player": "Nicole",
+    "wins": 27
+  },
+  {
+    "player": "Laura",
+    "wins": 24
+  },
+  {
+    "player": "Esteban",
+    "wins": 18
+  },
+  {
+    "player": "Marcela",
+    "wins": 12
+  },
+  {
+    "player": "JeanLuca",
+    "wins": 9
+  },
+  {
+    "player": "Julian",
+    "wins": 6
+  },
+  {
+    "player": "Angela",
+    "wins": 6
+  },
+  {
+    "player": "Ian",
+    "wins": 2
+  },
+  {
+    "player": "Alberto",
+    "wins": 1
+  }
+]

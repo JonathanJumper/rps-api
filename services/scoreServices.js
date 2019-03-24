@@ -1,48 +1,40 @@
+import scoresController from '../controller/scoresController'
 
 /**
- * GET /api/v1/top
+ * GET /api/v1/games
  */
-function top(req, res) {
+function games(req, res) {
+  const games = scoresController.getGames()
+  return res.status(200).send({
+    success: 'true',
+    message: 'games retrieved successfully',
+    games
+  })
+}
+
+
+/**
+ * POST /api/v1/games
+ */
+function addGame(req, res) {
+  console.log("mememememe", req.body)
+  //scoresController.addGame(req.body.player1)
+  return res.status(200).send({
+    success: 'true',
+    message: 'game added successfully'
+  })
+}
+
+/**
+ * GET /api/v1/scores
+ */
+function scores(req, res) {
+  const scores = scoresController.getScores()
   return res.status(200).send({
     success: 'true',
     message: 'top scores retrieved successfully',
-    top: [
-      {
-        user: 'Jonathan',
-        wins: 12
-      },
-      {
-        user: 'Nicole',
-        wins: 10
-      },
-      {
-        user: 'Laura',
-        wins: 6
-      },
-      {
-        user: 'Juan',
-        wins: 4
-      },
-
-    ]
+    scores
   })
 }
 
-/**
- * GET /api/v1/last
- */
-function last(req, res) {
-  return res.status(200).send({
-    success: 'true',
-    message: 'last scores retrieved successfully',
-    last: [
-      {
-        player1: 'Jonathan',
-        player2: 'Nicole',
-        score: '2 - 1'
-      }
-    ]
-  })
-}
-
-export default { top, last }
+export default { games, addGame, scores }
