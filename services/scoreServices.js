@@ -1,4 +1,4 @@
-import scoresController from '../controller/scoresController'
+import scoresController from '../controllers/scoresController'
 
 /**
  * GET /api/v1/games
@@ -6,7 +6,7 @@ import scoresController from '../controller/scoresController'
 function games(req, res) {
   const games = scoresController.getGames()
   return res.status(200).send({
-    success: 'true',
+    success: true,
     message: 'games retrieved successfully',
     games
   })
@@ -17,10 +17,9 @@ function games(req, res) {
  * POST /api/v1/games
  */
 function addGame(req, res) {
-  console.log("mememememe", req.body)
-  //scoresController.addGame(req.body.player1)
+  scoresController.addGame(req.body)
   return res.status(200).send({
-    success: 'true',
+    success: true,
     message: 'game added successfully'
   })
 }
@@ -31,7 +30,7 @@ function addGame(req, res) {
 function scores(req, res) {
   const scores = scoresController.getScores()
   return res.status(200).send({
-    success: 'true',
+    success: true,
     message: 'top scores retrieved successfully',
     scores
   })
